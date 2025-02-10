@@ -7,7 +7,7 @@ import colors from "@/app/styles/colors";
 const HeroContainer = styled.section`
   position: relative;
   width: 100%;
-  height: 70vh; 
+  height: 50vh; 
   display: flex;
   align-items: center;
   justify-content: flex-start; 
@@ -15,7 +15,7 @@ const HeroContainer = styled.section`
   
 
   @media (max-width: 768px) {
-    height: 50vh; 
+    height: 30vh; 
   }
 `;
 
@@ -33,8 +33,8 @@ const HeroText = styled.div`
   max-width: 35rem; 
   padding-left: 5%;
   z-index: 2;
-  background-color: ${colors.brand.emerald90}60;
-  border-radius: 10px; 
+  background-color: ${colors.brand.gray0}60;
+  border-radius: 0px 10px 10px 0px; 
  
 
   @media (max-width: 768px) {
@@ -45,10 +45,10 @@ const HeroText = styled.div`
   h1 {
     font-size: 3rem; 
     margin-bottom: 12px;
-    color: ${colors.brand.gray0} !important;
+    color: ${colors.brand.emerald90} !important;
 
     @media (max-width: 768px) {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   }
 `;

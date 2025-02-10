@@ -1,6 +1,7 @@
 "use client";
 
 import styled from "styled-components";
+import colors from "@/app/styles/colors";
 
 const SectionContainer = styled.section`
   max-width: 800px;
@@ -11,6 +12,10 @@ const SectionContainer = styled.section`
 const Title = styled.h2`
   font-size: 2rem;
   margin-bottom: 5px;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export default function Section1() {
