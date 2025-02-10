@@ -55,19 +55,19 @@ const IconWrapper = styled.div`
   justify-content: center;
   align-items: center;
 
-  /* ✅ Ajuste do tamanho no mobile */
+
   @media (max-width: 768px) {
     width: 70px;
     height: 70px;
   }
 
-  /* ✅ Ajuste do tamanho do ícone dentro do círculo */
+  /* Ajuste do tamanho do ícone dentro do círculo */
   span.material-symbols-outlined {
     font-size: 48px;
     color: ${colors.brand.invert400};
 
     @media (max-width: 768px) {
-      font-size: 32px; /* ✅ Reduzindo o tamanho no mobile */
+      font-size: 32px; 
     }
   }
 `;

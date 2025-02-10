@@ -30,8 +30,7 @@ const BackgroundImage = styled.div`
 `;
 
 const HeroText = styled.div`
-  max-width: 35rem;
-  color: ${colors.brand.invert400}; 
+  max-width: 35rem; 
   padding-left: 5%;
   z-index: 2;
   background-color: ${colors.brand.emerald90}60;
@@ -46,7 +45,7 @@ const HeroText = styled.div`
   h1 {
     font-size: 3rem; 
     margin-bottom: 12px;
-    color: ${colors.brand.invert400} !important;
+    color: ${colors.brand.gray0} !important;
 
     @media (max-width: 768px) {
       font-size: 2.5rem;
