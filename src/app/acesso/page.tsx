@@ -1,14 +1,14 @@
 "use client";
 
 import styled from "styled-components";
-import PrimaryButtonGreen from "@/components/0B-button/0B-primary-button-green"; 
+import PrimaryButtonGreen from "@/components/button/primary-button-green";
 import colors from "../styles/colors";
 
 const PageContainer = styled.div`
   max-width: 400px;
   margin: 100px auto;
   padding: 40px;
-  background: ${colors.brand.gray0}; 
+  background: ${colors.brand.gray0};
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -45,7 +45,7 @@ const Link = styled.a`
   text-decoration: none;
   margin-left: 5px;
   cursor: pointer;
-  
+
   &:hover {
     text-decoration: underline;
   }
@@ -59,8 +59,7 @@ export default function LoginPage() {
       <Form>
         <Input type="email" placeholder="E-mail" required />
         <Input type="password" placeholder="Senha" required />
-        
-        
+
         <PrimaryButtonGreen type="submit">Entrar</PrimaryButtonGreen>
       </Form>
 

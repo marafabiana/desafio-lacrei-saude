@@ -1,9 +1,9 @@
 "use client";
 
 import styled from "styled-components";
-import Section1 from "./0M-section1";
-import Section2 from "./0M-section2";
-import Section3 from "./0M-section3";
+import Section1 from "./section1";
+import Section2 from "./section2";
+import Section3 from "./section3";
 
 const MainContainer = styled.main`
   display: flex;

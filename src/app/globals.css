@@ -1,17 +1,51 @@
-
-
 html,
 body {
   min-height: 100vh;
   display: grid; 
   grid-template-rows: auto 1fr auto;
   max-width: 100vw;
+  width: 100%;
   overflow-x: hidden;
-  
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+/* Impede que imagens fiquem maiores do que a tela */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Define um layout responsivo para containers */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow-x: hidden;
+}
+
+/* Adiciona responsividade extra para seções principais */
+@media (max-width: 1024px) { /* Tablets */
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) { /* Celulares grandes */
+  .container {
+    max-width: 95%;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) { /* Celulares pequenos */
+  .container {
+    max-width: 100%;
+    padding: 0 5px;
+  }
 }

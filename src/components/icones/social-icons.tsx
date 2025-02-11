@@ -1,9 +1,9 @@
 "use client";
 
 import styled from "styled-components";
-import FacebookIcon from "./0I-facebook-icon";
-import InstagramIcon from "./0I-instagran-icon";
-import LinkedInIcon from "./0I-linkedin-icon";
+import FacebookIcon from "./facebook-icon";
+import InstagramIcon from "./instagran-icon";
+import LinkedInIcon from "./linkedin-icon";
 
 
 const SocialIconsContainer = styled.div`

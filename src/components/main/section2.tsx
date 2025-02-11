@@ -42,6 +42,7 @@ const ContentContainer = styled.div`
 const Title = styled.h2`
   font-size: 2rem;
   margin-bottom: 10px;
+  color: ${colors.brand.gray100};
 `;
 
 const Description = styled.p`
@@ -49,14 +50,15 @@ const Description = styled.p`
   line-height: 1.5;
   margin-bottom: 20px;
   text-align: justify;
+  color: ${colors.brand.gray90};
 `;
 
 export default function Section2() {
   return (
     <SectionContainer>
       <ImageContainer>
-        <Image 
-          src="/images/main-image.jpg" 
+        <Image
+          src="/images/main-image.jpg"
           alt="Estetoscópio"
           width={500}
           height={400}
@@ -66,13 +68,17 @@ export default function Section2() {
       <ContentContainer>
         <Title>O que é a Lacrei Saúde?</Title>
         <Description>
-          O nosso papel é construir a conexão entre as pessoas da comunidade LGBTQIAPN+ que precisam de atendimento clínico com profissionais da saúde.
+          O nosso papel é construir a conexão entre as pessoas da comunidade
+          LGBTQIAPN+ que precisam de atendimento clínico com profissionais da
+          saúde.
         </Description>
+        <Description>Promovemos segurança, acolhimento e inclusão.</Description>
         <Description>
-        Promovemos segurança, acolhimento e inclusão.  
-        </Description>
-        <Description>
-        Nossa plataforma digital é acessível, intuitiva e 100% segura. Protegemos e validamos todos os dados dos pacientes e profissionais de saúde. Além disso contamos com ajuda de diversos profissionais de saúde - sempre empáticos e abertos a entenderem as reais necessidades da comunidade LGBTQIAP+.
+          Nossa plataforma digital é acessível, intuitiva e 100% segura.
+          Protegemos e validamos todos os dados dos pacientes e profissionais de
+          saúde. Além disso contamos com ajuda de diversos profissionais de
+          saúde - sempre empáticos e abertos a entenderem as reais necessidades
+          da comunidade LGBTQIAP+.
         </Description>
       </ContentContainer>
     </SectionContainer>

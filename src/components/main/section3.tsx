@@ -16,6 +16,7 @@ const Title = styled.h2`
   font-size: 2rem;
   text-align: center;
   margin-bottom: 50px;
+  color: ${colors.brand.gray100};
 
   @media (max-width: 768px) {
     font-size: 1.8rem;
@@ -104,7 +105,7 @@ export default function Section3() {
             <span className="material-symbols-outlined">mail</span>
             <StepNumber>1</StepNumber>
           </IconWrapper>
-          <Description>Cadastre-se gratuitamente em nossa plataforma</Description>
+          <Description>Cadastre-se gratuitamente em nossa plataforma.</Description>
         </StepContainer>
 
         <StepContainer>
@@ -112,7 +113,7 @@ export default function Section3() {
             <span className="material-symbols-outlined">search</span>
             <StepNumber>2</StepNumber>
           </IconWrapper>
-          <Description>Encontre profissionais de saúde qualificados através de uma busca descomplicada</Description>
+          <Description>Encontre profissionais de saúde qualificados através de uma busca descomplicada.</Description>
         </StepContainer>
 
         <StepContainer>
@@ -120,7 +121,7 @@ export default function Section3() {
             <span className="material-symbols-outlined">check</span>
             <StepNumber>3</StepNumber>
           </IconWrapper>
-          <Description>Valide seu contato por SMS, para segurança no atendimento</Description>
+          <Description>Valide seu contato por SMS, para segurança no atendimento.</Description>
         </StepContainer>
 
         <StepContainer>
@@ -128,7 +129,7 @@ export default function Section3() {
             <span className="material-symbols-outlined">phone_enabled</span>
             <StepNumber>4</StepNumber>
           </IconWrapper>
-          <Description>Entre em contato com a pessoa profissional escolhida e marque sua consulta</Description>
+          <Description>Entre em contato com a pessoa profissional escolhida e marque sua consulta.</Description>
         </StepContainer>
       </ArticleContainer>
     </SectionContainer>

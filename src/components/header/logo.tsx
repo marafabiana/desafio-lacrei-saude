@@ -16,7 +16,7 @@ export default function Logo() {
       <Link href="/">
         <Image
           src="/logo-horizontal.svg"
-          alt="Logo Lacrei Saúde"
+          alt="Logo horizontal Lacrei Saúde"
           width={120}
           height={60}
         />

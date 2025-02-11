@@ -2,7 +2,7 @@
 
 import colors from "@/app/styles/colors";
 import styled from "styled-components";
-import SocialIcons from "../0I-icones/0I-social-icons";
+import SocialIcons from "../icones/social-icons";
 
 const FooterContainer = styled.footer`
   display: grid;
@@ -16,12 +16,10 @@ const FooterContainer = styled.footer`
   }
 `;
 
-
-
 export default function Footer() {
   return (
     <FooterContainer>
-        <SocialIcons />
+      <SocialIcons />
     </FooterContainer>
   );
 }

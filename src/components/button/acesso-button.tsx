@@ -30,7 +30,7 @@ const LoginButton = styled(Link)`
 
 export default function AcessoButton() {
   return (
-    <LoginButton href="/3A-acesso">
+    <LoginButton href="/acesso">
       <span
         className="material-symbols-outlined"
         style={{

@@ -3,8 +3,7 @@ import colors from "./colors";
 
 export const GlobalStyle = createGlobalStyle`
 
-
-  body {
+ body {
     background: background: ${colors.brand.invert400};
     color: ${colors.brand.heading400};
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
