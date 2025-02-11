@@ -1,11 +1,11 @@
 # 🚀 Projeto Desafio Lacrei Saúde
 
-## 📌 **Descrição:**  
-Este projeto tem como objetivo conectar pessoas **LGBTQIAPN+** com profissionais de saúde qualificados, proporcionando experiências de cuidado **seguros e inclusivos**. O sistema permite que os usuários realizem cadastros, busquem profissionais e entrem em contato para agendar atendimentos.
+## **Descrição:**  
+Este projeto está em sua fase inicial e tem como objetivo se tornar uma plataforma capaz de conectar pessoas LGBTQIAPN+ com profissionais de saúde qualificados, proporcionando experiências de cuidado seguras e inclusivas.
 
 ---
 
-## 🛠 **Tecnologias Utilizadas**
+## **Tecnologias Utilizadas**
 
 **- Next.js** - Framework React para aplicações web modernas;  
 **- React.js** - Biblioteca para construção da interface;
@@ -15,12 +15,12 @@ Este projeto tem como objetivo conectar pessoas **LGBTQIAPN+** com profissionais
 
 ---
 
-## ⚙️ **Instruções para Rodar o Projeto Localmente**
+## **Instruções para Rodar o Projeto Localmente**
 
 ### **1. Clone o repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/marafabiana/desafio-lacrei-saude
 ```
 
 ### **2. Acesse a pasta do projeto**
@@ -47,31 +47,31 @@ yarn install
 npm run dev
 ```
 
-A aplicação será executada em **http://localhost:3000** 🚀
+A aplicação será executada em **http://localhost:3000** 
 
 ---
 
-## 🏗 **Build e Deploy**
+## **Build e deploy**
 
-###  **Para gerar o build de produção localmente**
+### **Para gerar o build de produção localmente**
 
 ```bash
 npm run build
 ```
 
-###  **Deploy na Vercel (Caso use deploy manual)**
+### **Deploy na Vercel (Caso use deploy manual)**
 
 ```bash
 vercel --prod
 ```
 
-###  **Link do Projeto Online**
+### **Link do Projeto Online**
 
-🔗 [Acesse o projeto](https://desafio-lacrei-saude-theta.vercel.app/)
+[Acesse o projeto](https://desafio-lacrei-saude-theta.vercel.app/)
 
 ---
 
-## ✅ **Registro da Aprovação dos Testes**
+## **Registro da aprovação dos testes**
 
 Este projeto possui **testes unitários com Jest e Testing Library**. Para rodar os testes, utilize:
 
@@ -81,7 +81,7 @@ npm test
 
 Após rodar os testes, você verá o resultado no terminal.
 
-###  **Testes Realizados e Aprovados**
+### **Testes realizados e aprovados**
 
 ✔ **Teste do Header (`header.test.tsx`)**  
 ✔ **Teste do Main (`main.test.tsx`)**  
@@ -91,10 +91,10 @@ Após rodar os testes, você verá o resultado no terminal.
 
 ---
 
-## 📄 **Licença**
+## **Licença**
 
 Este projeto foi desenvolvido para fins educativos e está sob a licença **MIT**.
 
 ---
 
-🚀 **Desenvolvido por [Mara Benevides](https://github.com/marafabiana)**
+**Desenvolvido por [Mara Benevides](https://github.com/marafabiana)**
