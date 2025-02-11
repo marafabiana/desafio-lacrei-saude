@@ -11,7 +11,7 @@ const StyledButton = styled.button<{ as?: string }>`
   text-decoration: none;
   background-color: ${colors.brand.accent400};
   color: ${colors.brand.invert400};
-  padding: 12px 24px;
+  padding: 10px 18px;
   border: none;
   border-radius: 8px;
   font-size: 16px;
