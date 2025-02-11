@@ -1,7 +1,7 @@
 "use client";
 
 import styled from "styled-components";
-import colors from "@/app/styles/colors";
+
 
 const SectionContainer = styled.section`
   max-width: 800px;
