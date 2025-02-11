@@ -1,35 +1,35 @@
-# 🚀 Projeto Lacrei Saúde
+# 🚀 Projeto Desafio Lacrei Saúde
 
-📌 **Descrição:**  
+## 📌 **Descrição:**  
 Este projeto tem como objetivo conectar pessoas **LGBTQIAPN+** com profissionais de saúde qualificados, proporcionando experiências de cuidado **seguros e inclusivos**. O sistema permite que os usuários realizem cadastros, busquem profissionais e entrem em contato para agendar atendimentos.
 
 ---
 
 ## 🛠 **Tecnologias Utilizadas**
 
-✅ **Next.js** - Framework React para aplicações web modernas.  
-✅ **React.js** - Biblioteca para construção da interface.  
-✅ **Styled Components** - Estilização dinâmica dos componentes.  
-✅ **Jest + Testing Library** - Testes unitários para garantir qualidade do código.  
-✅ **Vercel** - Plataforma para deploy contínuo da aplicação.
+**- Next.js** - Framework React para aplicações web modernas;  
+**- React.js** - Biblioteca para construção da interface;
+**- Styled Components** - Estilização dinâmica dos componentes;  
+**- Jest + Testing Library** - Testes unitários para garantir qualidade do código;  
+**- Vercel** - Plataforma para deploy contínuo da aplicação.
 
 ---
 
 ## ⚙️ **Instruções para Rodar o Projeto Localmente**
 
-### 🔹 **1. Clone o repositório**
+### **1. Clone o repositório**
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
 
-### 🔹 **2. Acesse a pasta do projeto**
+### **2. Acesse a pasta do projeto**
 
 ```bash
 cd desafio-lacrei-saude
 ```
 
-### 🔹 **3. Instale as dependências**
+### **3. Instale as dependências**
 
 ```bash
 npm install
@@ -41,7 +41,7 @@ ou
 yarn install
 ```
 
-### 🔹 **4. Inicie o servidor**
+### **4. Inicie o servidor**
 
 ```bash
 npm run dev
@@ -53,21 +53,21 @@ A aplicação será executada em **http://localhost:3000** 🚀
 
 ## 🏗 **Build e Deploy**
 
-### 🔹 **Para gerar o build de produção localmente**
+###  **Para gerar o build de produção localmente**
 
 ```bash
 npm run build
 ```
 
-### 🔹 **Deploy na Vercel (Caso use deploy manual)**
+###  **Deploy na Vercel (Caso use deploy manual)**
 
 ```bash
 vercel --prod
 ```
 
-### 🔹 **Link do Projeto Online**
+###  **Link do Projeto Online**
 
-🔗 [Acesse o projeto](https://seu-projeto.vercel.app/)
+🔗 [Acesse o projeto](https://desafio-lacrei-saude-theta.vercel.app/)
 
 ---
 
@@ -81,23 +81,13 @@ npm test
 
 Após rodar os testes, você verá o resultado no terminal.
 
-### 🔹 **Testes Realizados e Aprovados**
+###  **Testes Realizados e Aprovados**
 
 ✔ **Teste do Header (`0H-header.test.tsx`)**  
 ✔ **Teste do Main (`0M-main.test.tsx`)**  
 ✔ **Teste da Section (`0M-section3.test.tsx`)**
 
 ✅ Todos os testes passaram com sucesso!
-
----
-
-## 🎯 **Destaques do Projeto**
-
-✔ **Código bem estruturado com componentes reutilizáveis.**  
-✔ **Testes unitários garantindo qualidade do código.**  
-✔ **Deploy automático na Vercel via GitHub.**  
-✔ **Design responsivo e acessível.**  
-✔ **Melhores práticas de desenvolvimento seguidas.**
 
 ---
 
