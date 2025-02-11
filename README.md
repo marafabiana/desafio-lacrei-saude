@@ -83,9 +83,9 @@ Após rodar os testes, você verá o resultado no terminal.
 
 ###  **Testes Realizados e Aprovados**
 
-✔ **Teste do Header (`0H-header.test.tsx`)**  
-✔ **Teste do Main (`0M-main.test.tsx`)**  
-✔ **Teste da Section (`0M-section3.test.tsx`)**
+✔ **Teste do Header (`header.test.tsx`)**  
+✔ **Teste do Main (`main.test.tsx`)**  
+✔ **Teste da Section (`section3.test.tsx`)**
 
 ✅ Todos os testes passaram com sucesso!
 
