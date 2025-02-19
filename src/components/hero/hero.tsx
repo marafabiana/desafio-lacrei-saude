@@ -33,7 +33,7 @@ const HeroText = styled.div`
   max-width: 100%; /* Garante que não tenha limitação de largura */
   padding: 20px; 
   z-index: 2;
-  background-color: ${colors.brand.gray0}60;
+  background-color: ${colors.brand.gray0}90;
   display: flex;
   align-items: center;
   justify-content: center; 
